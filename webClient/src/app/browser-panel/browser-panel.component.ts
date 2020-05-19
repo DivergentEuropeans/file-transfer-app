@@ -60,13 +60,10 @@ class FileRow {
     
 })
 export class BrowserPanelComponent implements AfterViewInit, OnInit {
-    // @ts-ignore
-    @Input() connection: Connection;
-    // @ts-ignore
-    @Input() ftaSide: FTASide;
-
+    @Input() connection;
+    @Input() ftaSide;
     @ViewChild(ZluxFileExplorerComponent)
-    private fileExplorer: ZluxFileExplorerComponent;
+    fileExplorer: ZluxFileExplorerComponent;
 
     fileView: string;
     tree: TreeNode[] = [];
