@@ -18,6 +18,18 @@
       "height": 800
     }
   },
+  "configurationData": {
+    "resources": {
+      "ui": {
+        "aggregationPolicy": "override",
+        "subResources": {
+          "history": {
+            "aggregationPolicy": "override"
+          }
+        }
+      }
+    }
+  },
   "dataServices": [
     {
       "type": "router",
